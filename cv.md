@@ -20,6 +20,26 @@ I am hard-working and responsible person. I have excellent communication skills.
 * JS
 * React
 * Redux 
+
+
+# Code Example
+
+```
+function filter_list(l) {
+ return l.filter(item => typeof item ==='number')
+}
+```
+
+# Experience
+
+# Education
+
+* Voronezh State University
+* Udemi
+* https://learn.javascript.ru/   
+
+# English
+* B1
            
 
 
