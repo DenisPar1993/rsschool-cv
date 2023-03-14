@@ -19,11 +19,50 @@ body{
     background: aquamarine;
     display: flex;
     flex-direction:column;
+    gap:5%;
     color: #fff;
     padding: 30px 15px;
 }
+.photo-part img{
+    margin: 0 auto;
+}
+.contacts-title{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.contact-item{
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.contact-mail::before{
+  content: url('./images/mail.png');
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+.contact-phone::before{
+    content: url('./images/phone-white.png');
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+.contact-map::before{
+    content: url('./images/map.png');
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
 .about{
-    padding: 10px;
+    margin-bottom: 40px;
+}
+.about-text{
+    font-size: 18px;
+}
+.about-title{
+   font-size: 24px;
+   margin-bottom: 20px;
 }
 img{
     border-radius: 50%;
@@ -84,6 +123,6 @@ img{
     text-transform: uppercase;
     font-size: 22px;
 }
-.experience{
+.example{
     background: gray;
 }
