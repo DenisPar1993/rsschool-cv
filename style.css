@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    
+    height: 100vh;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 3px 1px 6px 2px rgb(0 0 0 / 20%);
+}
+.photo-part{
+    max-width: 30vh;
+    background: aquamarine;
+    display: flex;
+    flex-direction:column;
+    gap:5%;
+    color: #fff;
+    padding: 30px 15px;
+}
+.photo-part img{
+    margin: 0 auto;
+}
+.contacts-title{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.contact-item{
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.contact-mail::before{
+  content: url('./images/mail.png');
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+.contact-phone::before{
+    content: url('./images/phone-white.png');
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+.contact-map::before{
+    content: url('./images/map.png');
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.about{
+    margin-bottom: 40px;
+}
+.about-text{
+    font-size: 18px;
+}
+.about-title{
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.name-part{
+    width: 100%;
+}
+.name{
+    background: #ebba6f;
+    font-size: 40px;
+    padding: 30px 30px;
+    
+}
+.name h3{
+    max-width: 250px;
+}
+.major{
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 35px;
+    font-size: 25px;
+    margin: 30px 0 15px;
+    position: relative;
+}
+.title::before{
+    content: url('./images/arrow-icon.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.describe{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.university{
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.universe-list li{
+   margin-bottom: 15px;
+}
+.item-list{
+    font-size: 18px;
+    font-weight: 500;
+}
+.universe-list .skill-item{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.example{
+    
+}
+.example pre{
+    padding: 30px ;
+    background: gray;
+}
+.link-project{
+    color: burlywood;
+}
+
+
+
+
