@@ -1,4 +1,89 @@
-body{
+*{
     margin: 0;
-    padding: 0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    
+    height: 100vh;
+}
+.container{
+    width: 70vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.photo-part{
+    max-width: 30vh;
+    background: aquamarine;
+    display: flex;
+    flex-direction:column;
+    color: #fff;
+    padding: 30px 15px;
+}
+.about{
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.name-part{
+    width: 100%;
+}
+.name{
+    background: #da8b14;
+    font-size: 40px;
+    padding-left: 30px;
+    
+}
+.name h3{
+    max-width: 250px;
+    padding-left: 30px;
+}
+.major{
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 35px;
+    font-size: 25px;
+    margin: 30px 0 15px;
+    position: relative;
+}
+.title::before{
+    content: url('./images/arrow-icon.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.describe{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.university{
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.universe-list li{
+   margin-bottom: 15px;
+}
+.item-list{
+    font-size: 18px;
+    font-weight: 500;
+}
+.universe-list .skill-item{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.experience{
+    background: gray;
 }
