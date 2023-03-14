@@ -9,10 +9,10 @@ body{
     height: 100vh;
 }
 .container{
-    width: 70vw;
-    height: 100%;
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
+    box-shadow: 3px 1px 6px 2px rgb(0 0 0 / 20%);
 }
 .photo-part{
     max-width: 30vh;
@@ -72,14 +72,13 @@ img{
     width: 100%;
 }
 .name{
-    background: #da8b14;
+    background: #ebba6f;
     font-size: 40px;
-    padding-left: 30px;
+    padding: 30px 30px;
     
 }
 .name h3{
     max-width: 250px;
-    padding-left: 30px;
 }
 .major{
     font-size: 25px;
@@ -124,5 +123,16 @@ img{
     font-size: 22px;
 }
 .example{
+    
+}
+.example pre{
+    padding: 30px ;
     background: gray;
 }
+.link-project{
+    color: burlywood;
+}
+
+
+
+
